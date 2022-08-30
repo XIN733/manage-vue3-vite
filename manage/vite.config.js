@@ -7,7 +7,7 @@ import path from 'path'
 
 
 export default defineConfig({
-  base: './',
+  base: '/dist/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')

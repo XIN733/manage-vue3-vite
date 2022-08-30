@@ -1,1 +1,1 @@
-const e=""+new URL("user.2a516dda.jpeg",import.meta.url).href;export{e as _};
+const s="/dist/assets/user.2a516dda.jpeg";export{s as _};
