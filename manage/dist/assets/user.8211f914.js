@@ -1,1 +1,1 @@
-const s="/dist/assets/user.2a516dda.jpeg";export{s as _};
+const e="/manage-vue3-vite/manage/dist/assets/user.2a516dda.jpeg";export{e as _};

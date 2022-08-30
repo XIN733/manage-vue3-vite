@@ -7,7 +7,7 @@ import path from 'path'
 
 
 export default defineConfig({
-  base: '/dist/',
+  base: '/manage-vue3-vite/manage/dist/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
