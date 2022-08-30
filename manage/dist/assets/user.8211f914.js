@@ -1,1 +1,1 @@
-const e="/XIN733/manage-vue3-vite/tree/main/manage/assets/user.2a516dda.jpeg";export{e as _};
+const e=""+new URL("user.2a516dda.jpeg",import.meta.url).href;export{e as _};
