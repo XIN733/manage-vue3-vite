@@ -1,1 +1,1 @@
-const e=""+new URL("user.2a516dda.jpeg",import.meta.url).href;export{e as _};
+const e="/manage-vue3-vite/assets/user.2a516dda.jpeg";export{e as _};
