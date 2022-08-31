@@ -55,12 +55,12 @@ function request(options){
         isMock = options.mock
     }
     // 对线上环境做处理
-    if(config.env == 'prod'){
+    // if(config.env == 'production'){
         // 如果是线上环境就用不了mock
-        service.defaults.baseURL = config.baseApi
-    }else{
+        // service.defaults.baseURL = config.baseApi
+    // }else{
         service.defaults.baseURL = isMock ? config.mockApi : config.baseApi
-    }
+    // }
     return service(options)
 }
 

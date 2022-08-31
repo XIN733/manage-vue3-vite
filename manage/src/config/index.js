@@ -3,12 +3,12 @@
 * 一般在企业级项目里面有三个环境
 * development 开发环境 
 * test 测试环境
-* prod 线上环境
+* production 线上环境
 */
 
 
 // 当前的环境
-const env = import.meta.env.MODE || 'prod'
+const env = import.meta.env.MODE || 'production'
 // console.log(import.meta.env.MODE)
 
 const EnvConfig = {
@@ -17,11 +17,11 @@ const EnvConfig = {
         mockApi:'https://www.fastmock.site/mock/728b209192f8e866f14b968e8219e86d/api'
     },
     test:{ 
-        baseApi:'//test.future.com/api',
+        baseApi:'',
         mockApi:'https://www.fastmock.site/mock/728b209192f8e866f14b968e8219e86d/api'
     },
-    prod:{ 
-        baseApi:'//future.com/api',
+    production:{ 
+        baseApi:'',
         mockApi:'https://www.fastmock.site/mock/728b209192f8e866f14b968e8219e86d/api'
     },
 }
