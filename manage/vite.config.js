@@ -7,7 +7,7 @@ import path from 'path'
 
 
 export default defineConfig({
-  base: '/manage-vue3-vite/manage/dist/',
+  base: './',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')
@@ -26,8 +26,6 @@ export default defineConfig({
   build: {
     target: 'modules',
     minify:'terser', // 混淆器，terser构建后文件体积更小
-    outDir: 'dist', //指定输出路径
-    assetsDir: 'assets', // 指定生成静态资源的存放路径
   },
   // 本地运行配置，及反向代理配置
   server: {
